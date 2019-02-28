@@ -1,0 +1,22 @@
+
+<!DOCTYPE html>
+<html>
+<body>
+
+<form action="http://127.0.0.1/">
+  First name:<br>
+  <input type="text" name="firstname" value="Mickey">
+  <br>
+  Last name:<br>
+  <input type="text" name="lastname" value="Mouse">
+  <br><br>  
+  Comment: 
+  <textarea cols="50" rows="4" name="comment" value="message-box"></textarea>
+  <input type="submit" value="submit">
+
+</form> 
+
+<p>If you click the "Submit" button, the form-data will be sent to a page called "action_page.php".</p>
+
+</body>
+</html>

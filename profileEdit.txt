@@ -1,0 +1,23 @@
+
+<!DOCTYPE html>
+<html>
+<body>
+<form method="get" action="sign-in">
+
+Welcome to Basically Facebook <br><br>
+  Name: <input type="text" name="name" value=""> <br>
+  Favourite Color: <input type="text" name="favcolor" value=""><br>
+
+  <br>
+
+  Description: <br> <input type="text" name="description" value=""> <br>
+
+  <br>
+  
+  <br>
+  <input type="Submit" value="Edit" >
+  
+</form>
+
+</body>
+</html>

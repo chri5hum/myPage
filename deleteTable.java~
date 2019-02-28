@@ -1,0 +1,22 @@
+public class deleteTable {
+  public static void main(String []args) {
+    connection c = null;
+    Statement stat = null;
+    
+    try {
+      Class.forName("org.sqlite.JDBC");
+      c = DriverManager.getConnection("jdbc:sqlite:test.db");
+      System.out.println("Opened database successfully");
+      
+      stmt = c.createStatement();
+      String sql = "DROP TABLE CUSTOM";
+      stmt.executeUpdate(sql);
+      stmt.close();
+      c.close();
+    } catch ( Exception e ) {
+      System.err.println( e.getClass().getName() + ": " + e.getMessage() );
+      System.exit(0);
+    }
+    
+  }
+}

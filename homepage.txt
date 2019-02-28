@@ -1,0 +1,20 @@
+
+<!DOCTYPE html>
+<html>
+<body>
+
+<form action="http://127.0.0.1/homepage">
+  Username:<br>
+  <input type="text" name="username" value="">
+  <br>
+  Password:<br>
+  <input type="text" name="password" value="">
+  <br>
+  
+  <input type="Submit" value="Log In">
+  <br><br><br>
+  <input type="Submit" value="Register">
+  
+
+</body>
+</html>
